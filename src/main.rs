@@ -23,7 +23,7 @@ fn main() {
       filename = &args[1];
       pair_output = args[2].parse().unwrap();
     }
-    _ => panic!("Missing parameters"),
+    _ => panic!("Check parameters"),
   }
 
   shuttle_computer::shuttle_magic(filename, pair_output);
